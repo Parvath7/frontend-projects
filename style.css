@@ -1,0 +1,302 @@
+/*----Common For All Pages----*/
+body {
+   background-color: #e3e4e8;   
+}
+a {text-decoration:none;
+}
+/*----Navigation-----*/
+.nav-bar {
+    background-color:#861F41;
+    display: flex;
+    gap:auto;
+    justify-content: flex-start;
+    align-items:center;   /* Vertically center the items, if necessary */
+   }
+.logo-1 {
+   height: 50px;
+   width: 50px;
+   margin: 10px 10px 5px 150px;
+   border-radius: 50%;
+   border-style: solid;
+   border-color: #ffffff;
+   border-width: 2px;
+}
+.nav-center{
+   margin-left: auto; /* This pushes the center box to the middle */
+   margin-right: auto; /* This keeps it centered by taking equal space on both sides */
+}
+.nav-title {
+   color: #ffffff;
+   margin-left: 50px;
+}
+.nav-left {
+   margin-right: 5%;
+   color: #ffffff;
+   display: flex;
+   gap:50px;
+   align-items: center; /* Vertically center the items, if necessary */
+}
+
+/*----Page1 (HomePage): index.html----*/
+/*-----Content-----*/
+.container {
+   margin-top: 120px;
+   display: flex;
+   justify-content: flex-start; /* Align items starting from the left */
+   flex-wrap: wrap;
+
+ }
+ /*-----Content Left Box------*/
+ .left-box {
+   width: 150px;
+   margin-left: 30px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+   padding: 0px 20px 30px 15px;
+   background-color: #861F41;
+   border: none;
+   color: #ffffff;
+   border-radius: 6px;
+ }
+.list-1 {
+   font-size: 16px; 
+   line-height: 40px;
+}
+.list-text{
+   color: #ffffff;
+}
+ /*-----Content Center Box-----*/
+.center-box {
+   margin-left: auto; /* This pushes the center box to the middle */
+   margin-right: auto; /* This keeps it centered by taking equal space on both sides */
+ }
+.about-section-top {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+.profile-pic{
+   height: 350px;
+   width: 350px;
+   border-radius: 50%;
+   object-fit: cover;
+   margin: 50px 50px 1px 50px;
+   border-style: solid;
+   border-color: #861F41;
+   border-width: 3px;
+}
+.about-text{
+   width: 400px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+.abt-button {
+   padding: 15px 30px;
+   background-color: #861F41;
+   border: none;
+   color: #ffffff;
+   font-size: 16px; 
+   font-weight:500; 
+   border-radius: 6px;
+}
+.about-section-bottom {
+   margin: 50px 0px 0px 0px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content:flex-end;
+   gap: 45px; 
+   align-items: center;
+}
+.text-1, .text-2, .text-3 {
+   color: #ffffff;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   background-color: #861F41;
+   padding: 40px 22px;
+   border-radius: 50%;
+   border-style: solid;
+   border-color:black;
+   border-width: 2px;
+}
+
+/*----Page2: HTML Assignment 1.html----*/
+.page2-container1 {
+  width: 40%;
+  border: 0px solid #861F41;
+  margin: auto;
+  padding: 10px 10px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #000000;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight:bold;
+  text-align: justify;
+  }
+.page2-container1 p {
+   font-size: 16.4px;
+   font-weight:lighter;
+}
+.pg2-list-1 {
+  line-height: 50px;
+}
+.pg2-list-text-1 {
+   color: #000000;
+   font-family: 'Verdana', 'Lucida Sans', Arial, sans-serif;
+   border: 1px solid #861F41;
+   padding: 7px 135px;
+   border-radius: 20px;
+}
+.pg2-list-text-2 {
+   color: #000000;
+   font-family: 'Verdana', 'Lucida Sans', Arial, sans-serif;
+   border: 1px solid #861F41;
+   padding: 7px 100px;
+   border-radius: 20px;
+}
+
+.page2-container2 {
+   margin: 50px auto;
+   text-align: center;
+   }   
+.h2-about-me {
+   text-decoration: underline;
+}
+
+.pg2-about-section {
+   display: flex;
+   align-items: center;
+   text-align: justify;
+   }
+.pg2-profile-pic {
+   height: 350px;
+   width: 350px;
+   border-radius: 50%;
+   object-fit: cover;
+   margin: 10px 30px 10px 0px;
+   border-style: solid;
+   border-color: #861F41;
+   border-width: 3px;
+}
+
+.embeds-1{
+   width: 40%;
+   margin: 50px auto 10px auto;
+   padding: 5px 5px;
+   display:flex;
+   justify-content: center;
+   color: #000000;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-weight:bold;
+   text-decoration: underline;
+}
+.page2-container3 {
+   width: 60%;
+   margin: 0px auto;
+   padding: 5px 10px;
+   display:flex;
+   gap: 40px;
+   justify-content: center;
+   color: #000000;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-weight:bold;
+   text-align: justify;
+   align-items: center;
+}
+
+div .pg2-video-text p {
+   font-weight:normal;
+   text-align: justify;
+}
+ .page2-container4 {
+   width: 60%;
+   margin: 0px auto;
+   padding: 5px 10px;
+   display:flex;
+   gap: 40px;
+   justify-content: center;
+   color: #000000;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-weight:bold;
+   text-align: justify;
+   align-items: center;
+}
+div .pg2-audio-text p {
+   font-weight:normal;
+   text-align: justify;
+}
+.pg2-audio-file-1{
+   border: 2px solid #861F41;
+   margin: 30px 0px 10px 0px;
+   align-items: center;
+   padding: 140px 205px;
+}
+
+.page2-container5 {
+   width: 60%;
+   margin: 0px auto;
+   padding: 5px 10px;
+   display:flex;
+   gap: 40px;
+   justify-content: center;
+   color: #000000;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-weight:bold;
+   align-items: center;
+}
+div .pg2-iframe-text-1 p {
+   font-weight:normal;
+   text-align: justify;
+}
+
+.page2-container6 {
+   width: 60%;
+   margin: auto;
+   display:flex;
+   flex-direction: column;
+   color: #000000;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-weight:bold;
+   align-items: center;
+}
+.pg2-iframe-text-2 {
+   text-align: center;
+   width: 65%;
+}
+div .pg2-iframe-text-2 p {
+   font-weight:normal;
+   text-align: center;
+}
+.pg2-iframe-2 {
+   width: 600px;
+   margin: auto;
+}
+
+/*----Page3: HTML Assignment 2.html----*/
+.page3-container-1 {
+   width: 40%;
+   margin: 50px auto auto auto;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.page3-container-2-table1 {
+   margin-top: 50px;
+}
+
+.page3-container-2-table1 table, th, td {
+   margin: 10px 10px 50px 10px;
+   border: 2px solid #861F41;
+   border-collapse: collapse;
+   font-size: 18px;
+   padding: 10px;
+}
+
+.page3-container-2-table1 td {
+   font-size: 16px;
+   font-weight: 500;
+   text-align: center;   
+}
+.page3-reg-form-1 {
+   border: 2px solid #861F41;
+   margin: 50px 0px 50px 10px;
+   padding: 10px 10px 10px 10px;
+}
+   

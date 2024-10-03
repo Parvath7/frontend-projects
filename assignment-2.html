@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav-bar">
+        <div class="nav-left"><img class="logo-1" src="logo-1.jpg" alt="logo"></div>
+        <div class="nav-center"><h1 class="nav-title">Welcome To My website</h1></div>
+        <div class="nav-left">
+            <span><a class="list-text" href="index.html" target=_self>Home</a></span>
+            <span><a class="list-text" href="assignment-1.html" target=_self>Assignments</a></span>
+            <span><a class="list-text" href="index.html" target=_self>About Me</a></span>
+            <span><a class="list-text" href="index.html" target=_self>Portfolio</a></span>
+            <span><a class="list-text" href="index.html" target=_self>Contact</a></span>
+        </div>
+    </div>
+
+    <div class="page3-container-1">        
+            <h1>HTML Assignment 2</h1>
+            <h2>Tables, Lists and Forms</h2>        
+            <p>This web page is part of my second assignment on HTML fundamentals. The goal of this project is to demonstrate the basic structure of a webpage using HTML, including tables, lists, forms and form validation. Through this project, I aim to build a solid understanding of how web pages are created and displayed in browsers.</p>
+            
+            <div class="page3-container-2-table1">
+                 <h2><a href="https://www.jagranjosh.com/general-knowledge/top-ten-hottest-places-in-india-1678796437-1" target="_blank">List Of Top 5 Hottest Places in India 2023</a></h2>
+                 <table class="page-3-table-1" style="width: 100%;">
+                      <tr>
+                            <th class="table-sno">S.No</th>
+                            <th>City</th>
+                            <th>State</th>
+                            <th>Max Temp (°C)</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Delhi</td>
+                            <td>Union territory</td>
+                            <td>44°C</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Churu</td>
+                            <td>Rajasthan</td>
+                            <td>50°C</td>
+                        </tr> 
+                        <tr>
+                            <td>3</td>
+                            <td>Sri Ganganagar</td>
+                            <td>Rajasthan</td>
+                            <td>50°C</td>
+                        </tr> 
+                        <tr>
+                            <td>4</td>
+                            <td>Bilaspur</td>
+                            <td>Chhattisgarh</td>
+                            <td>49°C</td>
+                        </tr> 
+                        <tr>
+                            <td>5</td>
+                            <td>Nagpur</td>
+                            <td>Chhattisgarh</td>
+                            <td>48°C</td>
+                        </tr>
+                    </table>
+             </div>
+
+            <div class="page3-list-items-1">
+                <h2><a href="https://www.forbes.com/sites/laurabegleybloom/2023/10/04/bucket-list-travel-the-top-20-places-in-the-world-according-to-a-new-report/" target="_blank">Bucket List Travel: The Top 10 Places In The World</a></h2>
+                <ul>
+                    <li>Visit The Taj Mahal In India</li>
+                    <li>Visit The Maldives</li>
+                    <li>Get Splashed At Niagara Falls</li>
+                    <li>Visit Bora Bora In French Polynesia</li>
+                    <li>Climb The Statue Of Liberty In New York City</li>
+                    <li>See The Northern Lights</li>
+                    <li>See The Mona Lisa In Paris</li>
+                    <li>Visit Stonehenge In England</li>
+                    <li>See Times Square</li>
+                    <li>See The Burj Khalifa In Dubai</li>                 
+                </ul>
+
+                <h2><a href="https://www.rd.com/list/books-read-before-die/" target="_blank">5 Best Books To Read This Year</a></h2>
+                <ol>
+                   <li>Anna Karenina by Leo Tolstoy (1878)</li>
+                   <li>To Kill a Mockingbird by Harper Lee (1960)</li>
+                   <li>Where the Sidewalk Ends by Shel Silverstein (1974)</li>
+                   <li>Valley of the Dolls by Jacqueline Susann (1966)</li>
+                   <li>The Shining by Stephen King (1977)</li>                   
+                </ol>
+            </div>
+            <div class="page3-reg-form-1">
+                 <h2>Registration Form</h2>   
+                <form action="">
+                    <label for="username">Enter Username:</label>
+                    <input type="text" name="username" id="" minlength="3" maxlength="50" required placeholder="User Name"><br><br>                    
+                    <label for="emailaddress">Enter Email Address:</label>
+                    <input type="email" name="emailaddress" id="" placeholder="Email Address" required><br><br>
+                    <label for="gender">Select Gender:</label>
+                    <input type="radio" name="gender" id="" value="male" required>
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="" value="female" required>
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="" value="other" required>
+                    <label for="other">Other</label><br><br>
+                    <label for="age-group">Choose your age group:</label>
+                    <select name="age-group" id="" required>
+                    <option value="" selected disabled hidden>Select an Option</option>
+                    <option value="18-24">18 to 24</option>
+                    <option value="25-34">25 to 34</option>
+                    <option value="35-44">35 to 44</option>
+                    <option value="45-54">45 to 54</option>
+                    <option value="55-64">55 to 64</option>
+                    <option value="above-65">Above 65</option>
+                    </select><br><br>
+                    <label for="checkbox">Sign-Up for Newsletter</label>
+                    <input type="checkbox" name="newsletter" id=""><br><br>
+                    <label for="password">Password:</label><br />
+                    <input type="password" id="password" placeholder="Password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@#$*-_]).{8,}$" required><br>
+                    <span> Password should have least One uppercase letter, One lowercase letter, One digit, One Special Character (@,#,$,*,-,_) and minimum length of 8 characters</span><br><br>
+                    <button type="submit">Submit</button><br><br>
+                </form>
+            </div>
+</div>
+
+</body>
+</html>
