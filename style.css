@@ -553,7 +553,7 @@ display: block;
  }
  .grey-text5 {
    color: #757575;
-   /* margin: -18px 30px 10px 30px; */
+   margin: 15px 10px 10px 10px;
    font-size: 12px;
   }   
 
@@ -614,6 +614,20 @@ display: block;
    border-radius: 8px;
    box-sizing: border-box;
    text-align: left;
+}
+.btn-5 {
+   width: 80%;
+   padding: 11px 20px;
+   margin: 15px auto 40px auto;
+   background-color: #6333FF;
+   border: none;  
+   color: #ffffff;
+   font-size: 15px;
+   font-weight:500;
+   border-radius: 8px;
+   box-sizing: border-box;
+   text-align: center;
+   cursor: pointer;
 }
 
 
