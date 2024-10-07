@@ -1,6 +1,6 @@
 /*----Common For All Pages----*/
 body {
-   background-color: #e3e4e8;   
+   background-color: #EDEDF0;   
 }
 a {text-decoration:none;
 }
@@ -270,7 +270,7 @@ div .assg1-iframe-text-2 p {
    margin: auto;
 }
 
-/*----assg2: HTML Assignment 2.html----*/
+/*----Assg2: HTML Assignment 2.html----*/
 .assg2-container-1 {
    width: 40%;
    margin: 50px auto auto auto;
@@ -299,4 +299,376 @@ div .assg1-iframe-text-2 p {
    margin: 50px 0px 50px 10px;
    padding: 10px 10px 10px 10px;
 }
+
+/*----Assg3: HTML Assignment 3.html----*/
+
+.assg3-container-1 {
+   width: 30%;
+   margin: 50px auto auto auto;
+   text-align: center;
+   font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.assg3-container-1 p {
+   text-align: justify;
+}
+
+.assg3-container-2 {
+   font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.assg3-container-2-card1 {
+background-color: #ffffff;
+width: 375px;
+margin: 30px auto;
+text-align: center;
+border-radius: 14px;
+}
+.img-1 {
+  width: 150px;
+  margin: 50px auto 10px auto;
+  padding: 10px auto;
+}
+.assg3-container-2-card1 > h2 {
+   font-size: 30px;
+   margin-top: 13px;
+}
+.grey-text1 {
+   color: #646466;
+   margin-top: -20px;
+   font-size: 14px;
+}
+.bold-text1 {
+   color: #000000;
+   font-weight: bold;
+}
+
+.input-1 {
+   width: 80%;
+   padding: 11px 10px;
+   margin: 15px auto 5px auto;
+   border: 2px solid #A789FF;
+   color: #000000;
+   font-size: 16px;
+   font-weight:500;
+   border-radius: 8px;
+   box-sizing: border-box;
+   text-align: center;
+   outline: 5px solid #F0EBFF;
+}
+.btn-1 {
+   width: 80%;
+   padding: 10px 80px;
+   margin: 10px auto 40px auto;
+   background-color: #6333FF;
+   border: none;  
+   color: #ffffff;
+   font-size: 15px;
+   font-weight:500;
+   border-radius: 8px;
+   box-sizing: border-box;
+   text-align: center;
+   cursor: pointer;
+}
+.assg3-container-2-card2 {
+   background-color: #ffffff;
+   width: 375px;
+   margin: 35px auto;
+   padding-bottom: 25px;
+   text-align: center;
+   border-radius: 14px;
+   }
+   .assg3-container-2-card2 > h2 {
+      font-size: 30px;
+      margin-top: 10px;
+   }
+.img-2 {
+   width: 33px;
+   margin: 30px auto 0px auto;
+   /* padding: 10px 100px; */
+}
+.grey-text2 {
+   color: #646466;
+   margin: -18px 50px 0px 20px;
+   font-size: 14px;
+}
+.btn-2 {
+   width: 80%;
+   padding: 12px 10px;
+   margin: 25px auto 10px auto;
+   background-color: #F3F3F5;
+   border: none;  
+   color: #000000;
+   font-size: 17px;
+   font-weight:500;
+   border-radius: 8px;
+   box-sizing: border-box;
+   cursor: pointer;
+   display: flex;
+   justify-content: space-between;
+   align-items:center;
+   box-sizing: border-box;
+   }
+
+.btn-2 span {
+   display: inline-flex;
+}
+.btn-2 img {
+   padding: 0px 10px 0px 7px;
+}
+
+.btn-3 {
+   width: 80%;
+   padding: 12px 10px;
+   margin: 10px auto 5px auto;
+   background-color: #FFFFFF;
+   border: none;  
+   color: #000000;
+   font-size: 17px;
+   font-weight:500;
+   border-radius: 8px;
+   box-sizing: border-box;
+   cursor: pointer;
+   display: flex;
+   justify-content: space-between;
+   align-items:center;
+   box-sizing: border-box;
+   }
+
+.btn-3 span {
+   display: inline-flex;
+}
+
+.btn-3 img {
+   padding: 0px 10px 0px 7px;
+}
+.btn-3 > img {
+   display: none;
+}
+.btn-3:hover  {
+   background-color: #F3F3F5;
+ }
+ .btn-3:hover > img {
+display: block;
+ }
+.grey-text3 {
+   color: #a5a5a5;
+   margin: 10px 50px 0px 50px;
+   font-size: 11px;
+}
+ 
+.assg3-container-2-card3 {
+   background-color: #ffffff;
+   width: 375px;
+   margin: 30px auto;
+   text-align: center;
+   border-radius: 14px;
+}
+ .img-3 {
+    width: 33px;
+    margin: 25px auto 0px auto;
+ }
+
+ .assg3-container-2-card3 > h2 {
+      font-size: 30px;
+      margin-top: 13px;
+}
+.grey-text4 {
+    color: #646466;
+    margin: -18px 30px 10px 30px;
+    font-size: 14px;
+   }
+.bold-text2 {
+   color: #000000;
+   font-weight: bold;
+}
+.credit-card {
+   width: 80%;
+   margin:35px auto 10px auto;
+   display: flex;
+   gap: 2px;
+   border: 2px solid #A789FF;
+   border-radius: 8px;
+   outline: 5px solid #F0EBFF;
+   align-items: center;
+}
+.img-4 {
+   height:13px;
+   margin: 0px 5px 0px 15px;
+ }
+.ccinput-1 {
+   width: 55%;
+   padding: 12px 0px;
+   border: none;   
+   border-radius: 8px;
+   text-align: left;
+}
+.ccinput-2 {
+   width: 23%;
+   padding: 12px 0px;
+   border: none;
+   border-radius: 8px;
+   text-align: center;
+}
+.ccinput-3 {
+   width: 22%;
+   padding: 12px 0px;
+   border: none;
+   border-radius: 8px;
+   text-align: center;
+}
+.credit-card input::placeholder {
+   color: #a8a8a8;
+   font-size: 14px;
+   font-weight:200;   
+}
+.credit-card input[type=text]:focus {
+   border: none;
+   outline: 0px;
+ }
+.btn-4 {
+   width: 80%;
+   padding: 11px 20px;
+   margin: 8px auto 8px auto;
+   background-color: #6333FF;
+   border: none;  
+   color: #ffffff;
+   font-size: 15px;
+   font-weight:500;
+   border-radius: 8px;
+   box-sizing: border-box;
+   text-align: center;
+   cursor: pointer;
+}
+.secure {
+   padding-bottom: 12px;
+   display: flex;
+   justify-content: center;
+   gap: 10px;
+   align-items: center;
    
+}
+.img-5 {
+   height:16px;
+   /* margin: 0px 5px 0px 15px; */
+ }
+ .grey-text5 {
+   color: #757575;
+   /* margin: -18px 30px 10px 30px; */
+   font-size: 12px;
+  }   
+
+  .assg3-container-2-card4 {
+   background-color: #ffffff;
+   width: 375px;
+   margin: 30px auto 80px auto;
+   text-align: center;
+   border-radius: 14px;
+   }
+
+   .img-6 {
+    margin: 30px 0px 0px 0px;
+     width: 33px;
+     height: auto;
+   }
+
+ .assg3-container-2-card4 > h2 {
+    font-size: 28px;
+    margin-top: 10px;
+ }
+  .grey-text6 {
+     color: #646466;
+     margin: -18px 30px 10px 30px;
+     font-size: 14px;
+   }   
+.form2-your-company label {
+   float: left;  
+   color: #757575;
+   font-size: 11px;
+   margin: 15px 0px 10px 40px;
+}
+#label-cname {
+   color: #A789FF;
+   margin: 15px 0px 10px 40px;
+ }
+.input-2 {
+   width: 80%;
+   padding: 11px 20px;
+   margin: 0px auto 5px auto;
+   border: 2px solid #A789FF;
+   color: #000000;
+   font-size: 16px;
+   font-weight:500;
+   border-radius: 8px;
+   box-sizing: border-box;
+   text-align: left;
+   outline: 5px solid #F0EBFF;
+}
+.form2-select {
+   width: 80%;
+   padding: 11px 20px;
+   margin: 0px auto 5px auto;
+   border: 1px solid #c0c0c0;;
+   color: #000000;
+   font-size: 15px;
+   font-weight:500;
+   border-radius: 8px;
+   box-sizing: border-box;
+   text-align: left;
+}
+
+
+/* aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
+hr {
+   color: #861F41;
+   height: 2px; /* adjust the height to reduce the line thickness */
+   width: 30%; /* adjust the width to reduce the line length */
+ }
+
+/******Basic styles for the dropdown********/
+.dropdown {
+   position: relative;
+   display: inline-block;
+}
+.dropbtn {
+   background-color: #4CAF50;
+   color: white;
+   padding: 10px 20px;
+   font-size: 16px;
+   border: none;
+   cursor: pointer;
+}
+
+.dropdown-content {
+   display: none;
+   position: absolute;
+   background-color: #f9f9f9;
+   min-width: 160px;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   z-index: 1;
+}
+
+.dropdown-content a {
+   color: black;
+   padding: 12px 16px;
+   text-decoration: none;
+   display: flex;
+   align-items: center;
+}
+
+.dropdown-content a img {
+   width: 20px;
+   height: 20px;
+   margin-right: 10px;
+}
+
+.dropdown-content a:hover {
+   background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+   display: block;
+}
+
+.dropdown:hover .dropbtn {
+   background-color: #3e8e41;
+}
