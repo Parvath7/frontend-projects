@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 4</title>
+    <link rel="stylesheet" href="stylesheet/style2_old.css">
+</head>
+<body>
+    <div class="nav-bar">
+        <div class="nav-left"><img class="logo-1" src="logo-1.jpg" alt="logo"></div>
+        <div class="nav-center"><h1 class="nav-title">Welcome To My website</h1></div>
+        <div class="nav-right">
+            <span><a class="list-text" href="index.html" target=_self>Home</a></span>
+            <span><a class="list-text" href="index.html" target=_self>Assignments</a></span>
+            <span><a class="list-text" href="index.html" target=_self>About Me</a></span>
+            <span><a class="list-text" href="index.html" target=_self>Portfolio</a></span>
+            <span><a class="list-text" href="index.html" target=_self>Contact</a></span>
+        </div>
+    </div>
+
+    <div class="assg-intro">
+        <h1>Assignment 4</h1>
+        <h2>Flexbox Assignment</h2>
+        <p>This web page is part of my third assignment on Flexbox. The goal of this project is to demonstrate the structure of a HTML webpage using Flexbox Model. Through this project, I aim to build a solid understanding of how web pages are created and displayed in browsers.</p>
+    </div>
+
+    <!-- Main container -->
+    <div class="insta-layout">
+
+        <!-- Left Sidebar (Menu) -->
+        <nav class="sidebar">
+            <div class="logo">
+                <img src="media/instagram-logo.png" alt="Instagram Logo">
+            </div>
+            <ul class="side-menu-1">
+                <li><img src="media/insta-home.png"><a href="#">Home</a></li>
+                <li><img src="media/insta-search.png"><a href="#">Search</a></li>
+                <li><img src="media/insta-explore.png"><a href="#">Explore</a></li>
+                <li><img src="media/insta-reels.png"><a href="#">Reels</a></li>
+                <li><img src="media/insta-messages.png"><a href="#">Messages</a></li>
+                <li><img src="media/insta-fav.png"><a href="#">Notifications</a></li>
+                <li><img src="media/insta-create.png"><a href="#">Create</a></li>
+                <li><img src="media/insta-profile.png"><a href="#">Profile</a></li>
+            </ul>
+            <ul class="side-menu-2">
+                <li><img src="media/threads-logo.png"><a href="#">Threads</a></li>
+                <li><img src="media/ham-menu.png"><a href="#">More</a></li>
+            </ul>
+        </nav>
+
+        <!-- Profile Section-Main Content (Right) -->
+        <main class="profile-content">
+            <!-- Profile Header -->
+            <header class="profile-header">
+                <div class="profile-pic">
+                    <img src="media/google-logo.jpg" alt="Profile Picture">
+                </div>
+                <div class="profile-info">
+                    <div class="profile-header-top">
+                        <h2 class="username">google</h2>
+                        <img class="insta-verified" src="media/insta-verified.png">
+                        <button class="follow-btn">Follow</button>
+                        <button class="message-btn">Message</button>
+                        <div class="insta-add">
+                        <img class="" src="media/insta-add.png">
+                        </div>
+                        <button class="options-btn"><sup>...</supsup></button>
+                    </div>
+                    <ul class="profile-stats">
+                        <li><span>2,552</span> posts</li>
+                        <li><span>15.2M</span> followers</li>
+                        <li><span>34</span> following</li>
+                    </ul>
+                    <p class="bio">
+                        <span>Google</span><br>
+                        <div class="thread-link">
+                        <a href="#" class="custom-link">
+                            <img src="media/threads-logo.png" alt="threads-logo">
+                           google</a></div>
+                        <span class="bio-text-1">Internet company</span>
+                        <span class="bio-text-2">Google unfiltered—sometimes with filters.</span>
+                        <span class="bio-text-1">1600 Amphitheatre Pkwy, Mountain View, California 94043</span>
+                        <div><img class="hyperlink-1" src="media/hyperlink-icon.png">
+                        <a class="bio-text-3" href="#">linkin.bio/google</a></div>
+                    </p>
+                </div>
+            </header>
+
+            <!-- Profile Stories Highlights (Circles) -->
+            <section class="highlights">
+                <div class="highlight">
+                    <img src="media/insta-story-1.png" alt="Highlight">
+                    <p>ICYMI</p>
+                </div>
+                <div class="highlight">
+                    <img src="media/insta-story-2.png" alt="Highlight">
+                    <p>Gemini</p>
+                </div>
+                <div class="highlight">
+                    <img src="media/insta-story-3.png" alt="Highlight">
+                    <p>Made by Google</p>
+                </div>
+                <div class="highlight">
+                    <img src="media/insta-story-4.png" alt="Highlight">
+                    <p>I/O '24</p>
+                </div>
+            </section>
+
+            <!-- Tabs (Posts, Reels, Tagged) -->
+            <nav class="profile-tabs">
+                <a href="#" class="active">Posts</a>
+                <a href="#">Reels</a>
+                <a href="#">Tagged</a>
+            </nav>
+
+            <!-- Post Grid -->
+            <section class="posts-grid">
+                <div class="post-item">
+                    <img src="media/reel-1.jpg" alt="Post Image">
+                </div>
+                <div class="post-item">
+                    <img src="media/reel-1.jpg" alt="Post Image">
+                </div>
+                <div class="post-item">
+                    <img src="media/reel-1.jpg" alt="Post Image">
+                </div>
+            </section>
+
+
+<!-----------Galley From Faraz----------->
+<div class="container">
+    
+    <div class="gallery">
+
+    <div class="gallery-item" tabindex="0">
+        <img src="https://images.unsplash.com/photo-1511765224389-37f0e77cf0eb?w=500&h=500&fit=crop" class="gallery-image" alt="">
+        <div class="gallery-item-info">
+        <ul>
+        <li class="gallery-item-likes"><span class="visually-hidden">Likes:</span><i class="fas fa-heart" aria-hidden="true"></i> 56</li>
+        <li class="gallery-item-comments"><span class="visually-hidden">Comments:</span><i class="fas fa-comment" aria-hidden="true"></i> 2</li>
+        </ul>
+        </div>
+    </div>
+
+    
+
+    <div class="gallery-item" tabindex="0">
+    <img src="https://images.unsplash.com/photo-1497445462247-4330a224fdb1?w=500&h=500&fit=crop" class="gallery-image" alt="">
+    <div class="gallery-item-info">
+    <ul>
+    <li class="gallery-item-likes"><span class="visually-hidden">Likes:</span><i class="fas fa-heart" aria-hidden="true"></i> 89</li>
+    <li class="gallery-item-comments"><span class="visually-hidden">Comments:</span><i class="fas fa-comment" aria-hidden="true"></i> 5</li>
+    </ul>
+    </div>
+    </div>
+
+
+
+    <div class="gallery-item" tabindex="0">
+    <img src="https://images.unsplash.com/photo-1426604966848-d7adac402bff?w=500&h=500&fit=crop" class="gallery-image" alt="">
+    <div class="gallery-item-type">
+    <span class="visually-hidden">Gallery</span><i class="fas fa-clone" aria-hidden="true"></i>
+    </div>
+    <div class="gallery-item-info">
+    <ul>
+    <li class="gallery-item-likes"><span class="visually-hidden">Likes:</span><i class="fas fa-heart" aria-hidden="true"></i> 42</li>
+    <li class="gallery-item-comments"><span class="visually-hidden">Comments:</span><i class="fas fa-comment" aria-hidden="true"></i> 1</li>
+    </ul>
+    </div>
+    </div>
+
+
+
+    <div class="gallery-item" tabindex="0">
+    <img src="https://images.unsplash.com/photo-1502630859934-b3b41d18206c?w=500&h=500&fit=crop" class="gallery-image" alt="">
+    <div class="gallery-item-type">
+    <span class="visually-hidden">Video</span><i class="fas fa-video" aria-hidden="true"></i>
+    </div>
+    <div class="gallery-item-info">
+    <ul>
+    <li class="gallery-item-likes"><span class="visually-hidden">Likes:</span><i class="fas fa-heart" aria-hidden="true"></i> 38</li>
+    <li class="gallery-item-comments"><span class="visually-hidden">Comments:</span><i class="fas fa-comment" aria-hidden="true"></i> 0</li>
+    </ul>
+    </div>
+    </div>
+
+
+
+    <div class="gallery-item" tabindex="0">
+    <img src="https://images.unsplash.com/photo-1498471731312-b6d2b8280c61?w=500&h=500&fit=crop" class="gallery-image" alt="">
+    <div class="gallery-item-type">
+    <span class="visually-hidden">Gallery</span><i class="fas fa-clone" aria-hidden="true"></i>
+    </div>
+    <div class="gallery-item-info">
+    <ul>
+    <li class="gallery-item-likes"><span class="visually-hidden">Likes:</span><i class="fas fa-heart" aria-hidden="true"></i> 47</li>
+    <li class="gallery-item-comments"><span class="visually-hidden">Comments:</span><i class="fas fa-comment" aria-hidden="true"></i> 1</li>
+    </ul>
+    </div>
+    </div>
+
+
+
+    <div class="gallery-item" tabindex="0">
+    <img src="https://images.unsplash.com/photo-1515023115689-589c33041d3c?w=500&h=500&fit=crop" class="gallery-image" alt="">
+
+    <div class="gallery-item-info">
+    <ul>
+    <li class="gallery-item-likes"><span class="visually-hidden">Likes:</span><i class="fas fa-heart" aria-hidden="true"></i> 94</li>
+    <li class="gallery-item-comments"><span class="visually-hidden">Comments:</span><i class="fas fa-comment" aria-hidden="true"></i> 3</li>
+    </ul>
+    </div>
+    </div>
+
+
+
+    <div class="gallery-item" tabindex="0">
+    <img src="https://images.unsplash.com/photo-1504214208698-ea1916a2195a?w=500&h=500&fit=crop" class="gallery-image" alt="">
+    <div class="gallery-item-type">
+    <span class="visually-hidden">Gallery</span><i class="fas fa-clone" aria-hidden="true"></i>
+    </div>
+    <div class="gallery-item-info">
+    <ul>
+    <li class="gallery-item-likes"><span class="visually-hidden">Likes:</span><i class="fas fa-heart" aria-hidden="true"></i> 52</li>
+    <li class="gallery-item-comments"><span class="visually-hidden">Comments:</span><i class="fas fa-comment" aria-hidden="true"></i> 4</li>
+    </ul>
+    </div>
+    </div>
+
+
+
+    <div class="gallery-item" tabindex="0">
+    <img src="https://images.unsplash.com/photo-1515814472071-4d632dbc5d4a?w=500&h=500&fit=crop" class="gallery-image" alt="">
+    <div class="gallery-item-info">
+    <ul>
+    <li class="gallery-item-likes"><span class="visually-hidden">Likes:</span><i class="fas fa-heart" aria-hidden="true"></i> 66</li>
+    <li class="gallery-item-comments"><span class="visually-hidden">Comments:</span><i class="fas fa-comment" aria-hidden="true"></i> 2</li>
+    </ul>
+    </div>
+    </div>
+
+
+
+    <div class="gallery-item" tabindex="0">
+    <img src="https://images.unsplash.com/photo-1511407397940-d57f68e81203?w=500&h=500&fit=crop" class="gallery-image" alt="">
+    <div class="gallery-item-type">
+    <span class="visually-hidden">Gallery</span><i class="fas fa-clone" aria-hidden="true"></i>
+    </div>
+    <div class="gallery-item-info">
+    <ul>
+    <li class="gallery-item-likes"><span class="visually-hidden">Likes:</span><i class="fas fa-heart" aria-hidden="true"></i> 45</li>
+    <li class="gallery-item-comments"><span class="visually-hidden">Comments:</span><i class="fas fa-comment" aria-hidden="true"></i> 0</li>
+    </ul>
+    </div>
+    </div>
+
+
+
+
+
+    </div>
+    <!-- End of gallery -->
+
+</div>
+<!-- End of container -->
+<!-----------Galley From Faraz----------->    
+
+ </main>
+    </div>
+    
+    <br><br><br><br><br>
+    <br><br><br><br><br>
+    <br><br><br><br><br>
+    <br><br><br><br><br>
+    <br><br><br><br><br>
+    <br><br><br><br><br>
+    <br><br><br><br><br>
+    <br><br><br><br><br>
+    <br><br><br><br><br>
+    <br><br><br><br><br>
+    <br><br><br><br><br>
+    <br><br><br><br><br>
+    <br><br><br><br><br>
+    <br><br><br><br><br>
+    <br><br><br><br><br>
+    <br><br><br><br><br>
+
+</body>
+</html>

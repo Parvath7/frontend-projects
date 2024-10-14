@@ -1,4 +1,9 @@
 /*----Common For All Pages----*/
+/* Basic Reset */
+* {
+   margin: 0;
+}
+
 body {
    background-color: #EDEDF0;   
 }
@@ -48,10 +53,10 @@ a {text-decoration:none;
  }
  /*-----Content Left Box------*/
  .left-box {
-   width: 150px;
-   margin-left: 30px;
+   width: 160px;
+   margin-left: 40px;
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
-   padding: 0px 20px 30px 15px;
+   padding: 25px 20px 30px 15px;
    background-color: #861F41;
    border: none;
    color: #ffffff;
@@ -59,7 +64,7 @@ a {text-decoration:none;
  }
 .list-1 {
    font-size: 16px; 
-   line-height: 40px;
+   line-height: 38px;
 }
 .list-text{
    color: #ffffff;
@@ -80,7 +85,7 @@ a {text-decoration:none;
    width: 350px;
    border-radius: 50%;
    object-fit: cover;
-   margin: 50px 50px 1px 50px;
+   margin: 50px 50px 1px 0px;
    border-style: solid;
    border-color: #861F41;
    border-width: 3px;
@@ -89,17 +94,23 @@ a {text-decoration:none;
    width: 400px;
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
 }
+.about-text h3 {
+   margin: 15px auto;
+} 
+
 .abt-button {
-   padding: 15px 30px;
+   margin: 25px 45px 0px 0px;
+   padding: 15px 10px;
    background-color: #861F41;
    border: none;
    color: #ffffff;
    font-size: 16px; 
    font-weight:500; 
    border-radius: 6px;
+   cursor: pointer;
 }
 .about-section-bottom {
-   margin: 50px 0px 0px 0px;
+   margin: 40px 0px 0px 0px;
    display: flex;
    flex-wrap: wrap;
    justify-content:flex-end;
@@ -116,13 +127,57 @@ a {text-decoration:none;
    border-color:black;
    border-width: 2px;
 }
+/* Homepage: Styles for Dropdown */
+.dropdown {
+   position: relative;
+   display: inline-block;
+}
+.dropbtn {
+   background-color: #861F41;
+   color: white;
+   padding: 15px 20px;
+   font-size: 16px;
+   font-weight:500; 
+   border: none;
+   border-radius: 6px;
+   cursor: pointer;
+}
+.dropdown-content {
+   display: none;
+   position: absolute;
+   background-color: #f9f9f9;
+   min-width: 160px;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   z-index: 1;
+}
+.dropdown-content a {
+   color: black;
+   padding: 12px 16px;
+   text-decoration: none;
+   display: flex;
+   align-items: center;
+}
+.dropdown-content a img {
+   width: 20px;
+   height: 20px;
+   margin-right: 10px;
+}
+.dropdown-content a:hover {
+   background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+   display: block;
+}
+.dropdown:hover .dropbtn {
+   background-color: #861F41;;
+}
 
 /*----Assg1: HTML Assignment 1.html----*/
 .assg1-container1 {
   width: 40%;
   border: 0px solid #861F41;
-  margin: auto;
-  padding: 10px 10px;
+  margin: 30px auto;
+  padding: 10px 150px;
   display:flex;
   flex-direction: column;
   justify-content: center;
@@ -131,6 +186,14 @@ a {text-decoration:none;
   font-weight:bold;
   text-align: justify;
   }
+
+.assg1-container1 > * {
+   margin-bottom: 20px; /* Adds margin below each child */
+}
+.assg1-container1 > *:last-child {
+   margin-bottom: 20px; /* Removes margin from the last child */
+}
+
 .assg1-container1 p {
    font-size: 16.4px;
    font-weight:lighter;
@@ -249,9 +312,10 @@ div .assg1-iframe-text-1 p {
 
 .assg1-container6 {
    width: 60%;
-   margin: auto;
+   margin: 50px auto;
    display:flex;
    flex-direction: column;
+   gap: 10px;
    color: #000000;
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
    font-weight:bold;
@@ -259,15 +323,17 @@ div .assg1-iframe-text-1 p {
 }
 .assg1-iframe-text-2 {
    text-align: center;
-   width: 65%;
+   width: 50%;
 }
 div .assg1-iframe-text-2 p {
    font-weight:normal;
    text-align: center;
+   margin: 10px auto;
 }
 .assg1-iframe-2 {
    width: 600px;
-   margin: auto;
+   padding-left: 60px;
+   /* margin: auto; */
 }
 
 /*----Assg2: HTML Assignment 2.html----*/
@@ -276,11 +342,15 @@ div .assg1-iframe-text-2 p {
    margin: 50px auto auto auto;
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
-.assg2-container-2-table1 {
-   margin-top: 50px;
+.assg2-container-1 > * {
+   margin-bottom: 20px; 
 }
-
+.assg2-container-2-table1 {
+   margin-top: 30px;
+}
+.assg2-list-items-1 > * {
+   margin: 20px auto; 
+}
 .assg2-container-2-table1 table, th, td {
    margin: 10px 10px 50px 10px;
    border: 2px solid #861F41;
@@ -288,7 +358,6 @@ div .assg1-iframe-text-2 p {
    font-size: 18px;
    padding: 10px;
 }
-
 .assg2-container-2-table1 td {
    font-size: 16px;
    font-weight: 500;
@@ -300,19 +369,25 @@ div .assg1-iframe-text-2 p {
    padding: 10px 10px 10px 10px;
 }
 
-/*----Assg3: HTML Assignment 3.html----*/
+.assg2-reg-form-1 > * {
+   margin: 10px 0px 20px 10px;
+}
 
+
+/*----Assg3: HTML Assignment 3.html----*/
 .assg3-container-1 {
    width: 30%;
    margin: 50px auto auto auto;
    text-align: center;
    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
+.assg3-container-1 > * {
+   margin: 15px auto; 
+}
 
 .assg3-container-1 p {
    text-align: justify;
 }
-
 .assg3-container-2 {
    font-family:Verdana, Geneva, Tahoma, sans-serif
 }
@@ -325,7 +400,7 @@ border-radius: 14px;
 }
 .img-1 {
   width: 150px;
-  margin: 50px auto 10px auto;
+  margin: 40px auto 5px auto;
   padding: 10px auto;
 }
 .assg3-container-2-card1 > h2 {
@@ -334,18 +409,17 @@ border-radius: 14px;
 }
 .grey-text1 {
    color: #646466;
-   margin-top: -20px;
+   margin-top: 8px;
    font-size: 14px;
 }
 .bold-text1 {
    color: #000000;
    font-weight: bold;
 }
-
 .input-1 {
    width: 80%;
    padding: 11px 10px;
-   margin: 15px auto 5px auto;
+   margin: 35px auto 5px auto;
    border: 2px solid #A789FF;
    color: #000000;
    font-size: 16px;
@@ -388,13 +462,13 @@ border-radius: 14px;
 }
 .grey-text2 {
    color: #646466;
-   margin: -18px 50px 0px 20px;
+   margin: 10px 50px 0px 20px;
    font-size: 14px;
 }
 .btn-2 {
    width: 80%;
    padding: 12px 10px;
-   margin: 25px auto 10px auto;
+   margin: 35px auto 10px auto;
    background-color: #F3F3F5;
    border: none;  
    color: #000000;
@@ -474,7 +548,7 @@ display: block;
 }
 .grey-text4 {
     color: #646466;
-    margin: -18px 30px 10px 30px;
+    margin: 10px 30px 10px 30px;
     font-size: 14px;
    }
 .bold-text2 {
@@ -577,7 +651,7 @@ display: block;
  }
   .grey-text6 {
      color: #646466;
-     margin: -18px 30px 10px 30px;
+     margin: 10px 30px 10px 30px;
      font-size: 14px;
    }   
 .form2-your-company label {
@@ -588,7 +662,7 @@ display: block;
 }
 #label-cname {
    color: #A789FF;
-   margin: 15px 0px 10px 40px;
+   margin: 20px 0px 10px 40px;
  }
 .input-2 {
    width: 80%;
@@ -629,60 +703,9 @@ display: block;
    text-align: center;
    cursor: pointer;
 }
-
-
 /* aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
 hr {
    color: #861F41;
    height: 2px; /* adjust the height to reduce the line thickness */
    width: 30%; /* adjust the width to reduce the line length */
  }
-
-/******Basic styles for the dropdown********/
-.dropdown {
-   position: relative;
-   display: inline-block;
-}
-.dropbtn {
-   background-color: #4CAF50;
-   color: white;
-   padding: 10px 20px;
-   font-size: 16px;
-   border: none;
-   cursor: pointer;
-}
-
-.dropdown-content {
-   display: none;
-   position: absolute;
-   background-color: #f9f9f9;
-   min-width: 160px;
-   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-   z-index: 1;
-}
-
-.dropdown-content a {
-   color: black;
-   padding: 12px 16px;
-   text-decoration: none;
-   display: flex;
-   align-items: center;
-}
-
-.dropdown-content a img {
-   width: 20px;
-   height: 20px;
-   margin-right: 10px;
-}
-
-.dropdown-content a:hover {
-   background-color: #ddd;
-}
-
-.dropdown:hover .dropdown-content {
-   display: block;
-}
-
-.dropdown:hover .dropbtn {
-   background-color: #3e8e41;
-}

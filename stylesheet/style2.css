@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*----Common For All Pages----*/
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+   /* background-color: #EDEDF0; */
+   background-color: #fff;
+   
+ }
+
+ a {text-decoration:none;
+ }
+
+/*----Navigation-----*/
+ .nav-bar {
+     background-color:#861F41;
+     height: 69px;
+     display: flex;
+     gap:auto;
+     justify-content: flex-start;
+     align-items:center;   /* Vertically center the items */
+    }
+ .logo-1 {
+    height: 54px;
+    width: 54px;
+    margin: 5px 10px 1px 150px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 2px;
+ }
+ .nav-center{
+    margin-left: auto; /* This pushes the center box to the middle */
+    margin-right: auto; /* This keeps it centered by taking equal space on both sides */
+ }
+ .nav-title {
+    color: #ffffff;
+    margin-left: 50px;
+}
+.list-text{
+    color: #ffffff;
+ }
+.nav-left {
+    margin-right: 5%;
+    color: #ffffff;
+    display: flex;
+    gap:50px;
+    align-items: center; /* Vertically center the items, if necessary */
+}
+.nav-right {
+    margin-right: 5%;
+    color: #ffffff;
+    display: flex;
+    gap:50px;
+    align-items: center; /* Vertically center the items, if necessary */
+ }
+/*----Assg4: HTML Assignment 4.html----*/
+.assg-intro {
+    width: 30%;
+    margin: 30px auto 30px auto;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+ }
+
+ .assg-intro > * {
+    margin: 10px auto auto auto;
+ }
+ 
+ .assg-intro p {
+    text-align: justify;
+ }
+
+
+
+
+/*----Assg4: HTML Assignment 4.html----*/
+/* Instagram Layout */
+.insta-main-containier {
+    /* margin: 30px none; */
+    display: flex;
+    /* height: 130vh; */
+    background-color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+/* Sidebar (20%) */
+.sidebar {
+    width: 17%;
+    /* background-color: #fff; */
+    border-right: 1px solid #dbdbdb;
+    padding: 40px 15px 15px 10px;
+    margin: 0px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start ;
+    min-height: 100vh;
+    position: fixed;
+    
+}
+.sidebar .logo img {
+    width: 100px;
+    margin: 0px 0px 32px 10px;
+}
+
+/* Side Bar Meny Styling - Start*/
+/* Remove default list styles */
+.side-menu-1, .side-menu-2 {
+    list-style-type: none;
+    padding: 0px;
+}
+/* Style list items */
+.side-menu-1 li, .side-menu-2 li {
+    display: flex; /* Make image &link inline */
+    align-items: center; /* Vertically center image & link */
+    padding: 12px 12px; /* Add padding bw list items */
+    margin-bottom: 10px; /* Add space bw list items */
+}
+/* Style image inside each list item */
+.side-menu-1 li img, .side-menu-2 li img  {
+    margin-right: 18px; /* Add space bw image & anchor text */
+    width: 22px; /* Set fixed width for images */
+    height: 22px; /* Set fixed height for images */
+    object-fit: contain; /* Ensure image fits within the dimensions*/
+}
+/* Optional: Style the anchor text */
+.side-menu-1 li a, .side-menu-2 li a {
+    text-decoration: none;
+    color: #000000; /* Change link color */
+    font-size: 15px;
+}
+.side-menu-2 {
+    margin-top: auto;
+ }
+
+/* Sidebar Hover effect */
+.side-menu-1 li:hover {
+    background-color: #f2f2f2; /* Darken background on hover */
+    border-radius: 6px;       
+}
+.side-menu-2 li:hover {
+    background-color: #f2f2f2; /* Darken background on hover */
+    border-radius: 6px;
+}
+/* Side Bar Meny Styling - End*/
+
+/*-Profile Section-Main Content (Right) (82%) */
+
+.main-content-right {
+    width: 100%;
+    padding-top: 30px;
+    padding-left: 17.5%;
+    /* padding: 33px 13% 20px 20px; */
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    /* align-items: center; */
+}
+
+/* Profile Header */
+.section-1-profile-header {
+    display: flex;
+    align-self: center;
+    margin-right: 28vh
+    /* margin-bottom: 0px; */
+}
+.profile-pic img {
+    width: 150px;
+    height: 150px;
+    margin: 42px 98px;
+    border-radius: 50%;
+    outline: 1px solid #DDDDDD;
+    outline-offset:-1px;
+}
+.profile-info {
+    display: flex;
+    flex-direction: column;
+ }
+.profile-info-top {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    margin-bottom: 14px;
+}
+.username {
+    font-size: 20px;
+    font-weight: 400;
+}
+.insta-verified {
+    width: 20px;
+    height: 20px;
+}
+.follow-btn {
+    background-color: #0095f6;
+    color: white;
+    border: none;
+    padding: 8px 21px;
+    margin: 0px 2px 0px 10px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.insta-add {
+    background-color: #efefef;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+.insta-add img {
+width: 16px;
+height: 16px;
+cursor: pointer;
+}
+.message-btn {
+    background-color: #efefef;
+    color: white;
+    border: none;
+    margin-right: 1px;
+    padding: 8px 18px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 6px;   
+}
+.message-btn {
+    color: #333;
+    cursor: pointer;
+}
+.options-btn {
+    padding: 0px 0px 3px 2px;
+    border: none; /*Remove default style from buttons*/
+    background: none; /*Remove default style from buttons*/
+    font-size: 34px;
+    font-weight: 700;
+    color: #000000;
+    cursor: pointer;
+}
+/*---- Profile Stats-----*/
+.profile-stats {
+    display: flex;
+    list-style: none;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.profile-stats li {
+    font-size: 15px;
+    margin-right: 42px;
+}
+.profile-stats li  span {
+    font-weight: 700;
+}
+/*---- Bio-----*/
+.bio {
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 3px
+}
+
+.bio a {
+    text-decoration: none;
+}
+/* Style the anchor (hyperlink) element */
+.thread-link {
+    display: inline-flex; /* Image and text inline */
+    align-items: center; /* Vertically center content */
+    padding: 5px 5px; /* Add padding around the hyperlink */
+    margin: 5px 0; /* Add margin to top and bottom */
+    text-decoration: none; /* Remove underline from link */
+    color: #1b1b1b; /* Set text color */
+    background-color: #efefef; /* Add background color */
+    border-radius: 20px; /* Optionally, add rounded corners */
+    font-size: 12px; /* Font size for text */
+}
+
+/* Style the image inside the anchor */
+.thread-link img {
+    margin-right: 5px; /* Space between image and text */
+    width: 15px; /* Set the width of the image */
+    height: auto; /* Maintain aspect ratio */
+}
+/* Hover effect */
+.thread-link:hover {
+    background-color: #e3e3e3; /* Darken background on hover */
+}
+.bio-text-1 {
+    font-size: 14px;
+    color: #737373;
+    font-weight: 400;
+}
+.bio-text-2 {
+    font-size: 14px;
+    color: #000000;
+    font-weight: 400;
+    text-decoration: none;
+}
+.hyperlink-1 {
+    width:12px;
+    height: 12px;
+    font-weight: 400;
+}
+.bio-text-3 {
+    font-size: 14px;
+    color: #00376B;
+    text-decoration: none;
+font-weight: 500;
+}
+.bio-text-3:hover {
+    text-decoration: underline;
+}
+
+/* Section-2 Stories (Circles) */
+.section-2-story-circles {
+    display: flex;
+    gap: 38px;
+    text-align: center;
+    align-self: center;
+    margin-right: 40vh;
+}
+.story-cirlces img {
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    outline: 1px solid #DDDDDD;
+    outline-offset:5px;
+    cursor: pointer;
+}
+
+.story-cirlces p {
+    font-size: 13px;
+    font-weight: 500;
+    white-space: nowrap; 
+    width: 94px; 
+    overflow: hidden;
+    text-overflow: ellipsis;    
+}
+
+/* Section-3 Posts, Reels, Tagged Start */
+.section-3-tabs {
+    width: 960px;
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    padding-top: 15px;
+    margin: 8px auto 14px auto;
+    border-top: 1px solid #d8d8d8;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+
+}
+/* Style the anchor (hyperlink) element */
+.section-3-anchor {
+    display: inline-flex; /* Image and text inline */
+    align-items: center; /* Vertically center content */
+    text-decoration: none; /* Remove underline from link */
+    color: #a5a5a5; /* Set text color */
+
+}
+.sec-3-active-tab {
+    color: #1b1b1b; /* Set text color */
+}
+
+/* Style the image inside the anchor */
+.section-3-anchor img {
+    margin-right: 6px; /* Space between image and text */
+    width: 12px; /* Set the width of the image */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.section-3-Post-Reels {
+    width: 960px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+    align-self: center;
+
+}
+.section-3-rows {
+    display: flex;
+    gap: 5px;
+
+}
+.Section-3-img {
+    width: 316px;
+    height: 305px; 
+}
+
+.gallery-image-1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+.Section-3-img:hover {
+    cursor: pointer;
+    background-color: rgba(27, 27, 27, 0.493);
+    opacity: 0.8;
+}
+
+/*--------------------END-------------------- */
+
